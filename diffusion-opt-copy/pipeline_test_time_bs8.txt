@@ -1,0 +1,3220 @@
+GPU is available. Number of GPUs: 1
+The largest common number (GCD) is: 10
+Number of columns (using shape): (2000000, 13)
+Index(['image_name', 'prompt', 'part_id', 'seed', 'step', 'cfg', 'sampler',
+       'width', 'height', 'user_name', 'timestamp', 'image_nsfw',
+       'prompt_nsfw', 'cluster'],
+      dtype='object')
+Cluster -1: [1834356, 1834125, 1834094, 1834005, 1834563, 1834564, 1834976, 1834244, 1544264, 1834605, 1544003, 1834242, 1544363, 1544565, 1834234, 1589082, 1834496, 1834353, 1544595, 1834231, 1834847, 1544508, 1834034, 1834017, 1544004, 1834530, 1834006, 1544987, 1834230, 1834706, 1834707, 1589184, 1834229, 1834708, 1544889, 1544265, 1544280, 1544321, 1834604, 1834099, 1544596, 1589153, 1834718, 1834717, 1834716, 1834715, 1589126, 1834709, 1834403, 1834404, 1544190, 1834354, 1544625, 1544635, 1589131, 1589135, 1834004, 1544065, 1589185, 1589196, 1589251, 1589253, 1589261, 1834039, 1589972, 1589983, 1544191, 1589083, 1544678, 1834601, 1544988, 1834723, 1834705, 1834624, 1544978, 1589100, 1589197, 1589132, 1589139, 1834730, 1589107, 1544538, 1589084, 1544423, 1589022, 1834154, 1544205, 1589981, 1589979, 1834728, 1834727, 1544079, 1834531, 1589179, 1544706, 1544615, 1834725, 1589186, 1544206, 1544066, 1544266, 1833061, 1544322, 1589166, 1544528, 1589984, 1589287, 1589281, 1589280, 1544445, 1544687, 1544250, 1589283, 1589074, 1544597, 1833223, 1833147, 1833221, 1833155, 1833218, 1589117, 1833144, 1544626, 1544855, 1544018, 1833150, 1833226, 1544163, 1544251, 1544080, 1589967, 1589085, 1589982, 1589255, 1589168, 1589038, 1589027, 1589018, 1589010, 1589122, 1833241, 1544576, 1833233, 1544424, 1833237, 1544721, 1833235, 1833234, 1833231, 1833036, 1833236, 1833238, 1544568, 1833255, 1833256, 1544725, 1544159, 1833253, 1544585, 1833246, 1589314, 1544990, 1544288, 1589309, 1833996, 1544076, 1589311, 1544688, 1589312, 1589313, 1589304, 1544617, 1589296, 1589303, 1544143, 1589299, 1544630, 1544539, 1544185, 1833264, 1544563, 1544858, 1544051, 1833149, 1544433, 1590802, 1544252, 1590028, 1590797, 1589315, 1590794, 1590773, 1590793, 1590786, 1590787, 1590791, 1833259, 1544005, 1833258, 1590790, 1544006, 1590260, 1590818, 1544289, 1544627, 1544697, 1544290, 1544008, 1590383, 1590819, 1590812, 1833283, 1833284, 1833281, 1833286, 1833287, 1833288, 1590820, 1544689, 1833279, 1590817, 1590816, 1590807, 1590808, 1590809, 1833274, 1544432, 1544728, 1544564, 1544729, 1590810, 1590811, 1833277, 1544618, 1544986, 1544734, 1590805, 1590814, 1544722, 1544213, 1590813, 1544600, 1833085, 1833180, 1590828, 1544592, 1590836, 1590833, 1590831, 1590829, 1544541, 1590823, 1544198, 1544601, 1590248, 1834483, 1833292, 1834734, 1834735, 1834350, 1834737, 1834738, 1834740, 1834741, 1544275, 1544221, 1589319, 1589320, 1589323, 1544291, 1589192, 1589326, 1544665, 1544690, 1544657, 1544631, 1834933, 1544619, 1834349, 1590839, 1544425, 1589329, 1834752, 1834754, 1834749, 1544176, 1834751, 1544022, 1834126, 1834755, 1589086, 1589241, 1544994, 1589989, 1544009, 1834747, 1544238, 1834746, 1589019, 1834036, 1834357, 1834765, 1834766, 1589352, 1589351, 1589350, 1544540, 1544712, 1834762, 1834761, 1544723, 1834760, 1544607, 1834757, 1544165, 1544743, 1589346, 1834772, 1544400, 1544386, 1589347, 1544745, 1834848, 1834771, 1834770, 1589343, 1589344, 1834769, 1589339, 1589338, 1589337, 1589340, 1589334, 1589333, 1589332, 1589331, 1589336, 1589330, 1834767, 1834788, 1834786, 1834787, 1834562, 1834048, 1834781, 1834780, 1834779, 1834681, 1834064, 1834784, 1834577, 1544426, 1589364, 1589365, 1589366, 1589367, 1589115, 1544177, 1589091, 1589017, 1544059, 1544268, 1544401, 1544746, 1544580, 1544077, 1544586, 1544603, 1589360, 1589361, 1589141, 1544971, 1544891, 1589262, 1589193, 1544053, 1589356, 1544417, 1544427, 1544482, 1833296, 1544078, 1589152, 1589384, 1833297, 1833303, 1544199, 1833295, 1544223, 1833302, 1589128, 1833310, 1544276, 1833311, 1833308, 1544643, 1589372, 1589381, 1589380, 1544749, 1589373, 1834793, 1834794, 1834795, 1544012, 1589375, 1589382, 1589376, 1833064, 1833323, 1833326, 1589392, 1589396, 1833317, 1833315, 1833319, 1589401, 1833093, 1589398, 1833078, 1589402, 1833322, 1589395, 1589391, 1589390, 1544575, 1544691, 1544699, 1544451, 1544752, 1544755, 1544972, 1544998, 1544054, 1589246, 1544753, 1544464, 1833181, 1589388, 1544412, 1544224, 1589024, 1589386, 1544246, 1833168, 1544292, 1544340, 1589385, 1544240, 1589276]
+cluster size: 450
+Cluster 0: [1544241, 1544242]
+cluster size: 2
+Cluster 1: [1544594, 1834014, 1834038, 1834155, 1544036, 1834233, 1589116, 1834045, 1589985, 1589013, 1589214, 1589144, 1834009, 1544608, 1544609, 1544281, 1834096, 1589986, 1834720, 1544570, 1589127, 1544293, 1544989, 1833016, 1833051, 1589284, 1589151, 1544979, 1544037, 1833227, 1544282, 1544263, 1833988, 1544038, 1589014, 1544616, 1833242, 1833244, 1833248, 1833251, 1544610, 1544244, 1544543, 1544407, 1833134, 1833068, 1833117, 1544144, 1544611, 1544727, 1544039, 1590966, 1589318, 1589316, 1590703, 1833275, 1590804, 1834525, 1590832, 1590519, 1590827, 1590821, 1544260, 1544612, 1589015, 1834748, 1544192, 1834744, 1834010, 1589354, 1589353, 1544010, 1544602, 1544040, 1544739, 1834776, 1544283, 1589345, 1834790, 1834097, 1544458, 1833314, 1833300, 1833299, 1544982, 1834792, 1589378, 1834797, 1544632, 1834798, 1589369, 1589400, 1544041, 1833324, 1589389, 1589387]
+cluster size: 96
+Cluster 2: [1834375, 1544462]
+cluster size: 2
+Cluster 3: [1834465, 1834466, 1544535, 1589178]
+cluster size: 4
+Cluster 4: [1834003, 1833266]
+cluster size: 2
+Cluster 5: [1834931, 1544409, 1833318]
+cluster size: 3
+Cluster 6: [1589090, 1544413]
+cluster size: 2
+Cluster 7: [1589976, 1589977]
+cluster size: 2
+Cluster 8: [1834361, 1834362, 1833267]
+cluster size: 3
+Cluster 9: [1834367]
+cluster size: 1
+Cluster 10: [1834037, 1544183, 1544184, 1833239]
+cluster size: 4
+Cluster 11: [1834347, 1833228, 1589292, 1590798, 1589349]
+cluster size: 5
+Cluster 12: [1589040, 1834606, 1834714, 1589006, 1833250, 1590800, 1544052, 1833276, 1834238]
+cluster size: 9
+Cluster 13: [1589990, 1589397]
+cluster size: 2
+Cluster 14: [1589225, 1544658]
+cluster size: 2
+Cluster 15: [1589007, 1589341]
+cluster size: 2
+Cluster 16: [1589098, 1589099]
+cluster size: 2
+Cluster 17: [1834050, 1834051]
+cluster size: 2
+Cluster 18: [1589105, 1589106, 1833128]
+cluster size: 3
+Cluster 19: [1544444, 1544447]
+cluster size: 2
+Cluster 20: [1834153, 1589157, 1590815]
+cluster size: 3
+Cluster 21: [1544200, 1544201, 1589041, 1834041, 1544202, 1833260]
+cluster size: 6
+Cluster 22: [1834343, 1589111, 1590796]
+cluster size: 3
+Cluster 23: [1834156, 1544385]
+cluster size: 2
+Cluster 24: [1834095]
+cluster size: 1
+Cluster 25: [1834608, 1834609, 1544686]
+cluster size: 3
+Cluster 26: [1834029, 1544171]
+cluster size: 2
+Cluster 27: [1834527, 1834721]
+cluster size: 2
+Cluster 28: [1834678, 1834732]
+cluster size: 2
+Cluster 29: [1834691, 1833261]
+cluster size: 2
+Cluster 30: [1544667, 1544668]
+cluster size: 2
+Cluster 31: [1834207, 1544399, 1834756, 1834743, 1833320]
+cluster size: 5
+Cluster 32: [1544233, 1544234]
+cluster size: 2
+Cluster 33: [1589216, 1544624]
+cluster size: 2
+Cluster 34: [1589008, 1589009]
+cluster size: 2
+Cluster 35: [1834477, 1833225, 1833312, 1589370]
+cluster size: 4
+Cluster 36: [1544529, 1589176, 1589325]
+cluster size: 3
+Cluster 37: [1589218, 1589219]
+cluster size: 2
+Cluster 38: [1544469, 1544470, 1544471, 1544472]
+cluster size: 4
+Cluster 39: [1834719, 1834932]
+cluster size: 2
+Cluster 40: [1834713, 1833092]
+cluster size: 2
+Cluster 41: [1834710, 1590741, 1834789]
+cluster size: 3
+Cluster 42: [1834711, 1833309]
+cluster size: 2
+Cluster 43: [1834712, 1589154, 1833232, 1544991, 1589298, 1833291, 1833270]
+cluster size: 7
+Cluster 44: [1544655, 1544656]
+cluster size: 2
+Cluster 45: [1834363, 1590801]
+cluster size: 2
+Cluster 46: [1589980, 1834791]
+cluster size: 2
+Cluster 47: [1544137, 1544138, 1544139, 1544140, 1589348]
+cluster size: 5
+Cluster 48: [1589220, 1589221, 1544629, 1590824, 1544747, 1833316]
+cluster size: 6
+Cluster 49: [1589226, 1589227]
+cluster size: 2
+Cluster 50: [1589239, 1589240]
+cluster size: 2
+Cluster 51: [1589120, 1589121]
+cluster size: 2
+Cluster 52: [1589974, 1589975]
+cluster size: 2
+Cluster 53: [1544277, 1544415, 1544416, 1833304]
+cluster size: 4
+Cluster 54: [1834243, 1544422, 1589295]
+cluster size: 3
+Cluster 55: [1589044, 1590006]
+cluster size: 2
+Cluster 56: [1544211, 1544212, 1833290]
+cluster size: 3
+Cluster 57: [1589978, 1589305]
+cluster size: 2
+Cluster 58: [1544172, 1544173]
+cluster size: 2
+Cluster 59: [1589062, 1589063, 1833321]
+cluster size: 3
+Cluster 60: [1834722, 1544164, 1833280, 1590826]
+cluster size: 4
+Cluster 61: [1834724, 1833262, 1834785]
+cluster size: 3
+Cluster 62: [1544683]
+cluster size: 1
+Cluster 63: [1834731, 1833307]
+cluster size: 2
+Cluster 64: [1589136, 1589137]
+cluster size: 2
+Cluster 65: [1544278, 1834750]
+cluster size: 2
+Cluster 66: [1544414, 1833090, 1544284]
+cluster size: 3
+Cluster 67: [1834232, 1834778]
+cluster size: 2
+Cluster 68: [1834729, 1834736]
+cluster size: 2
+Cluster 69: [1544461, 1834374]
+cluster size: 2
+Cluster 70: [1589987, 1589988]
+cluster size: 2
+Cluster 71: [1589058, 1544259]
+cluster size: 2
+Cluster 72: [1544530]
+cluster size: 1
+Cluster 73: [1589222, 1590792, 1589223]
+cluster size: 3
+Cluster 74: [1544636, 1544279, 1544637, 1544731, 1544638]
+cluster size: 5
+Cluster 75: [1834987, 1833293, 1834768]
+cluster size: 3
+Cluster 76: [1589158]
+cluster size: 1
+Cluster 77: [1834526, 1589205, 1589206, 1589374, 1589399]
+cluster size: 5
+Cluster 78: [1544713, 1544714]
+cluster size: 2
+Cluster 79: [1834411, 1834412, 1833325]
+cluster size: 3
+Cluster 80: [1834726, 1590799]
+cluster size: 2
+Cluster 81: [1544075, 1833273]
+cluster size: 2
+Cluster 82: [1589289, 1833208, 1589265, 1834753, 1589138]
+cluster size: 5
+Cluster 83: [1544720]
+cluster size: 1
+Cluster 84: [1544057, 1833020]
+cluster size: 2
+Cluster 85: [1544406]
+cluster size: 1
+Cluster 86: [1589279, 1590287]
+cluster size: 2
+Cluster 87: [1589288]
+cluster size: 1
+Cluster 88: [1544243, 1544748]
+cluster size: 2
+Cluster 89: [1589286, 1590795]
+cluster size: 2
+Cluster 90: [1589268]
+cluster size: 1
+Cluster 91: [1589285, 1544446, 1834758]
+cluster size: 3
+Cluster 92: [1589282, 1590788]
+cluster size: 2
+Cluster 93: [1833220, 1590020, 1590806]
+cluster size: 3
+Cluster 94: [1833224, 1544339]
+cluster size: 2
+Cluster 95: [1833222, 1834520]
+cluster size: 2
+Cluster 96: [1833219, 1834745]
+cluster size: 2
+Cluster 97: [1833162, 1833285]
+cluster size: 2
+Cluster 98: [1589095, 1833289]
+cluster size: 2
+Cluster 99: [1544316, 1544317]
+cluster size: 2
+Cluster 100: [1544267, 1544269]
+cluster size: 2
+Cluster 101: [1589145]
+cluster size: 1
+Cluster 102: [1589291, 1833151, 1833230, 1833305]
+cluster size: 4
+Cluster 103: [1589293, 1833265, 1834796]
+cluster size: 3
+Cluster 104: [1589294, 1589290]
+cluster size: 2
+Cluster 105: [1544174, 1833252, 1544253, 1544175]
+cluster size: 4
+Cluster 106: [1589108, 1590837, 1589371]
+cluster size: 3
+Cluster 107: [1544219, 1544220, 1544222]
+cluster size: 3
+Cluster 108: [1544235, 1544981, 1544237]
+cluster size: 3
+Cluster 109: [1544890, 1834850]
+cluster size: 2
+Cluster 110: [1544364, 1544732, 1544735, 1544365, 1544698, 1544366]
+cluster size: 6
+Cluster 111: [1544640, 1544641]
+cluster size: 2
+Cluster 112: [1833240, 1833272, 1833271]
+cluster size: 3
+Cluster 113: [1544669, 1544733]
+cluster size: 2
+Cluster 114: [1833229, 1589301]
+cluster size: 2
+Cluster 115: [1833153, 1834775]
+cluster size: 2
+Cluster 116: [1544598, 1544599]
+cluster size: 2
+Cluster 117: [1833243, 1544559, 1544560, 1544561]
+cluster size: 4
+Cluster 118: [1544724]
+cluster size: 1
+Cluster 119: [1544236]
+cluster size: 1
+Cluster 120: [1544980]
+cluster size: 1
+Cluster 121: [1833245, 1834782]
+cluster size: 2
+Cluster 122: [1833247]
+cluster size: 1
+Cluster 123: [1833249, 1833132]
+cluster size: 2
+Cluster 124: [1833187]
+cluster size: 1
+Cluster 125: [1833254]
+cluster size: 1
+Cluster 126: [1589302, 1590822]
+cluster size: 2
+Cluster 127: [1589306, 1833146]
+cluster size: 2
+Cluster 128: [1589307]
+cluster size: 1
+Cluster 129: [1589308, 1589379]
+cluster size: 2
+Cluster 130: [1589310, 1589260]
+cluster size: 2
+Cluster 131: [1833013, 1589300, 1834742]
+cluster size: 3
+Cluster 132: [1544684, 1590825, 1834777]
+cluster size: 3
+Cluster 133: [1544019, 1544020]
+cluster size: 2
+Cluster 134: [1544715, 1544716]
+cluster size: 2
+Cluster 135: [1589297, 1833301]
+cluster size: 2
+Cluster 136: [1833269, 1544007]
+cluster size: 2
+Cluster 137: [1833268, 1834773]
+cluster size: 2
+Cluster 138: [1833069]
+cluster size: 1
+Cluster 139: [1544648, 1834764]
+cluster size: 2
+Cluster 140: [1833130, 1589177]
+cluster size: 2
+Cluster 141: [1544726, 1544750]
+cluster size: 2
+Cluster 142: [1544569]
+cluster size: 1
+Cluster 143: [1833138, 1544993]
+cluster size: 2
+Cluster 144: [1833263, 1589324, 1834763]
+cluster size: 3
+Cluster 145: [1590789, 1544730]
+cluster size: 2
+Cluster 146: [1590803, 1834988]
+cluster size: 2
+Cluster 147: [1589317, 1589256]
+cluster size: 2
+Cluster 148: [1590385, 1590386]
+cluster size: 2
+Cluster 149: [1590514, 1589322]
+cluster size: 2
+Cluster 150: [1833257, 1834759]
+cluster size: 2
+Cluster 151: [1544021, 1544023]
+cluster size: 2
+Cluster 152: [1833282, 1590834]
+cluster size: 2
+Cluster 153: [1833278, 1544011]
+cluster size: 2
+Cluster 154: [1544186, 1544187, 1589377]
+cluster size: 3
+Cluster 155: [1544463, 1589355]
+cluster size: 2
+Cluster 156: [1544203, 1544204]
+cluster size: 2
+Cluster 157: [1544408]
+cluster size: 1
+Cluster 158: [1833188, 1589133]
+cluster size: 2
+Cluster 159: [1590838, 1589393]
+cluster size: 2
+Cluster 160: [1590835, 1589358]
+cluster size: 2
+Cluster 161: [1590830, 1589383]
+cluster size: 2
+Cluster 162: [1833004]
+cluster size: 1
+Cluster 163: [1544544, 1589335, 1833313, 1589404]
+cluster size: 4
+Cluster 164: [1833983, 1544884]
+cluster size: 2
+Cluster 165: [1544670, 1833048]
+cluster size: 2
+Cluster 166: [1544254]
+cluster size: 1
+Cluster 167: [1834733]
+cluster size: 1
+Cluster 168: [1544480, 1544481]
+cluster size: 2
+Cluster 169: [1834739, 1544738, 1544754]
+cluster size: 3
+Cluster 170: [1590333, 1589159]
+cluster size: 2
+Cluster 171: [1589321, 1589357]
+cluster size: 2
+Cluster 172: [1544245]
+cluster size: 1
+Cluster 173: [1544671, 1544672]
+cluster size: 2
+Cluster 174: [1589328]
+cluster size: 1
+Cluster 175: [1589327, 1589394]
+cluster size: 2
+Cluster 176: [1589270, 1589359]
+cluster size: 2
+Cluster 177: [1544146, 1544736, 1544147]
+cluster size: 3
+Cluster 178: [1544861, 1589965]
+cluster size: 2
+Cluster 179: [1544737, 1544239]
+cluster size: 2
+Cluster 180: [1544856]
+cluster size: 1
+Cluster 181: [1544193]
+cluster size: 1
+Cluster 182: [1834774, 1833978]
+cluster size: 2
+Cluster 183: [1544740]
+cluster size: 1
+Cluster 184: [1544741]
+cluster size: 1
+Cluster 185: [1544742, 1834783]
+cluster size: 2
+Cluster 186: [1544744]
+cluster size: 1
+Cluster 187: [1589342, 1544642]
+cluster size: 2
+Cluster 188: [1834497, 1833327]
+cluster size: 2
+Cluster 189: [1544620, 1544621]
+cluster size: 2
+Cluster 190: [1589363]
+cluster size: 1
+Cluster 191: [1589362]
+cluster size: 1
+Cluster 192: [1833298, 1833040]
+cluster size: 2
+Cluster 193: [1833306, 1834799]
+cluster size: 2
+Cluster 194: [1544751, 1589368]
+cluster size: 2
+Cluster 195: [1544613, 1589403]
+cluster size: 2
+Cluster 196: [1833294]
+cluster size: 1
+Cluster 197: [1544593]
+cluster size: 1
+Cluster 198: [1544604]
+cluster size: 1
+Cluster 199: [1833173]
+cluster size: 1
+Cluster 200: [1544055]
+cluster size: 1
+202
+11.8
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+Moving tensor to device: cpu
+StableDiffusionXLPipeline {
+  "_class_name": "StableDiffusionXLPipeline",
+  "_diffusers_version": "0.29.1",
+  "_name_or_path": "stabilityai/stable-diffusion-xl-base-1.0",
+  "feature_extractor": [
+    null,
+    null
+  ],
+  "force_zeros_for_empty_prompt": true,
+  "image_encoder": [
+    null,
+    null
+  ],
+  "scheduler": [
+    "diffusers",
+    "EulerDiscreteScheduler"
+  ],
+  "text_encoder": [
+    "transformers",
+    "CLIPTextModel"
+  ],
+  "text_encoder_2": [
+    "transformers",
+    "CLIPTextModelWithProjection"
+  ],
+  "tokenizer": [
+    "transformers",
+    "CLIPTokenizer"
+  ],
+  "tokenizer_2": [
+    "transformers",
+    "CLIPTokenizer"
+  ],
+  "unet": [
+    "diffusers",
+    "UNet2DConditionModel"
+  ],
+  "vae": [
+    "diffusers",
+    "AutoencoderKL"
+  ]
+}
+
+Using scheduler: EulerDiscreteScheduler
+cached timestep: 801.0
+Queue 1: Popped Prompt: a sketch of a cluttered robot makers shop with stacks of robot parts and old robots by Jean-Baptiste Monge, Label: 0
+Queue 2: Popped Prompt: pizza fighting pigeon, Label: 0
+Queue 3: Popped Prompt: 🤨, Label: 0
+Queue 4: Popped Prompt: Tommy shelby (peaky blinders) smoking a pink cigar, Label: 0
+Queue 5: Popped Prompt: Astronaut explores surface of alien planet with german shepard wearing a space helmet, digital concept art, cinematic lighting, Label: 0
+Queue 6: Popped Prompt: A robot artist, portrait, detailed digital art, Label: 0
+Queue 7: Popped Prompt: eye of the galaxy, Label: 0
+Queue 8: Popped Prompt: a renaissance painting of neymar, Label: 0
+Time for request_scheduler: 0.0396 seconds
+Time for pipe: 15.9051 seconds
+tail: 8
+tail: 8
+tail: 8
+tail: 8
+tail: 8
+tail: 8
+tail: 8
+tail: 8
+timesteps cor: []
+timesteps: [[781.0, 761.0, 741.0, 721.0, 701.0, 681.0, 661.0, 641.0, 621.0, 601.0, 581.0, 561.0, 541.0, 521.0, 501.0, 481.0, 461.0, 441.0, 421.0, 401.0, 381.0, 361.0, 341.0, 321.0, 301.0, 281.0, 261.0, 241.0, 221.0, 201.0, 181.0, 161.0, 141.0, 121.0, 101.0, 81.0, 61.0, 41.0, 21.0, 1.0], [781.0, 761.0, 741.0, 721.0, 701.0, 681.0, 661.0, 641.0, 621.0, 601.0, 581.0, 561.0, 541.0, 521.0, 501.0, 481.0, 461.0, 441.0, 421.0, 401.0, 381.0, 361.0, 341.0, 321.0, 301.0, 281.0, 261.0, 241.0, 221.0, 201.0, 181.0, 161.0, 141.0, 121.0, 101.0, 81.0, 61.0, 41.0, 21.0, 1.0], [781.0, 761.0, 741.0, 721.0, 701.0, 681.0, 661.0, 641.0, 621.0, 601.0, 581.0, 561.0, 541.0, 521.0, 501.0, 481.0, 461.0, 441.0, 421.0, 401.0, 381.0, 361.0, 341.0, 321.0, 301.0, 281.0, 261.0, 241.0, 221.0, 201.0, 181.0, 161.0, 141.0, 121.0, 101.0, 81.0, 61.0, 41.0, 21.0, 1.0], [781.0, 761.0, 741.0, 721.0, 701.0, 681.0, 661.0, 641.0, 621.0, 601.0, 581.0, 561.0, 541.0, 521.0, 501.0, 481.0, 461.0, 441.0, 421.0, 401.0, 381.0, 361.0, 341.0, 321.0, 301.0, 281.0, 261.0, 241.0, 221.0, 201.0, 181.0, 161.0, 141.0, 121.0, 101.0, 81.0, 61.0, 41.0, 21.0, 1.0], [781.0, 761.0, 741.0, 721.0, 701.0, 681.0, 661.0, 641.0, 621.0, 601.0, 581.0, 561.0, 541.0, 521.0, 501.0, 481.0, 461.0, 441.0, 421.0, 401.0, 381.0, 361.0, 341.0, 321.0, 301.0, 281.0, 261.0, 241.0, 221.0, 201.0, 181.0, 161.0, 141.0, 121.0, 101.0, 81.0, 61.0, 41.0, 21.0, 1.0], [781.0, 761.0, 741.0, 721.0, 701.0, 681.0, 661.0, 641.0, 621.0, 601.0, 581.0, 561.0, 541.0, 521.0, 501.0, 481.0, 461.0, 441.0, 421.0, 401.0, 381.0, 361.0, 341.0, 321.0, 301.0, 281.0, 261.0, 241.0, 221.0, 201.0, 181.0, 161.0, 141.0, 121.0, 101.0, 81.0, 61.0, 41.0, 21.0, 1.0], [781.0, 761.0, 741.0, 721.0, 701.0, 681.0, 661.0, 641.0, 621.0, 601.0, 581.0, 561.0, 541.0, 521.0, 501.0, 481.0, 461.0, 441.0, 421.0, 401.0, 381.0, 361.0, 341.0, 321.0, 301.0, 281.0, 261.0, 241.0, 221.0, 201.0, 181.0, 161.0, 141.0, 121.0, 101.0, 81.0, 61.0, 41.0, 21.0, 1.0], [781.0, 761.0, 741.0, 721.0, 701.0, 681.0, 661.0, 641.0, 621.0, 601.0, 581.0, 561.0, 541.0, 521.0, 501.0, 481.0, 461.0, 441.0, 421.0, 401.0, 381.0, 361.0, 341.0, 321.0, 301.0, 281.0, 261.0, 241.0, 221.0, 201.0, 181.0, 161.0, 141.0, 121.0, 101.0, 81.0, 61.0, 41.0, 21.0, 1.0]]
+Are latent tensors exactly equal?: True
+Are prompt embedding exactly equal?: True
+Are add_time_ids exactly equal?: True
+Are add_text_embeds exactly equal?: True
+Time for request_scheduler: 0.0011 seconds
+Time for pipe: 15.2553 seconds
+tail: 8
+tail: 8
+tail: 8
+tail: 8
+tail: 8
+tail: 8
+tail: 8
+tail: 8
+timesteps cor: []
+timesteps: [[581.0, 561.0, 541.0, 521.0, 501.0, 481.0, 461.0, 441.0, 421.0, 401.0, 381.0, 361.0, 341.0, 321.0, 301.0, 281.0, 261.0, 241.0, 221.0, 201.0, 181.0, 161.0, 141.0, 121.0, 101.0, 81.0, 61.0, 41.0, 21.0, 1.0], [581.0, 561.0, 541.0, 521.0, 501.0, 481.0, 461.0, 441.0, 421.0, 401.0, 381.0, 361.0, 341.0, 321.0, 301.0, 281.0, 261.0, 241.0, 221.0, 201.0, 181.0, 161.0, 141.0, 121.0, 101.0, 81.0, 61.0, 41.0, 21.0, 1.0], [581.0, 561.0, 541.0, 521.0, 501.0, 481.0, 461.0, 441.0, 421.0, 401.0, 381.0, 361.0, 341.0, 321.0, 301.0, 281.0, 261.0, 241.0, 221.0, 201.0, 181.0, 161.0, 141.0, 121.0, 101.0, 81.0, 61.0, 41.0, 21.0, 1.0], [581.0, 561.0, 541.0, 521.0, 501.0, 481.0, 461.0, 441.0, 421.0, 401.0, 381.0, 361.0, 341.0, 321.0, 301.0, 281.0, 261.0, 241.0, 221.0, 201.0, 181.0, 161.0, 141.0, 121.0, 101.0, 81.0, 61.0, 41.0, 21.0, 1.0], [581.0, 561.0, 541.0, 521.0, 501.0, 481.0, 461.0, 441.0, 421.0, 401.0, 381.0, 361.0, 341.0, 321.0, 301.0, 281.0, 261.0, 241.0, 221.0, 201.0, 181.0, 161.0, 141.0, 121.0, 101.0, 81.0, 61.0, 41.0, 21.0, 1.0], [581.0, 561.0, 541.0, 521.0, 501.0, 481.0, 461.0, 441.0, 421.0, 401.0, 381.0, 361.0, 341.0, 321.0, 301.0, 281.0, 261.0, 241.0, 221.0, 201.0, 181.0, 161.0, 141.0, 121.0, 101.0, 81.0, 61.0, 41.0, 21.0, 1.0], [581.0, 561.0, 541.0, 521.0, 501.0, 481.0, 461.0, 441.0, 421.0, 401.0, 381.0, 361.0, 341.0, 321.0, 301.0, 281.0, 261.0, 241.0, 221.0, 201.0, 181.0, 161.0, 141.0, 121.0, 101.0, 81.0, 61.0, 41.0, 21.0, 1.0], [581.0, 561.0, 541.0, 521.0, 501.0, 481.0, 461.0, 441.0, 421.0, 401.0, 381.0, 361.0, 341.0, 321.0, 301.0, 281.0, 261.0, 241.0, 221.0, 201.0, 181.0, 161.0, 141.0, 121.0, 101.0, 81.0, 61.0, 41.0, 21.0, 1.0]]
+Are latent tensors exactly equal?: True
+Are prompt embedding exactly equal?: True
+Are add_time_ids exactly equal?: True
+Are add_text_embeds exactly equal?: True
+Time for request_scheduler: 0.0011 seconds
+Time for pipe: 15.3310 seconds
+tail: 8
+tail: 8
+tail: 8
+tail: 8
+tail: 8
+tail: 8
+tail: 8
+tail: 8
+timesteps cor: []
+timesteps: [[381.0, 361.0, 341.0, 321.0, 301.0, 281.0, 261.0, 241.0, 221.0, 201.0, 181.0, 161.0, 141.0, 121.0, 101.0, 81.0, 61.0, 41.0, 21.0, 1.0], [381.0, 361.0, 341.0, 321.0, 301.0, 281.0, 261.0, 241.0, 221.0, 201.0, 181.0, 161.0, 141.0, 121.0, 101.0, 81.0, 61.0, 41.0, 21.0, 1.0], [381.0, 361.0, 341.0, 321.0, 301.0, 281.0, 261.0, 241.0, 221.0, 201.0, 181.0, 161.0, 141.0, 121.0, 101.0, 81.0, 61.0, 41.0, 21.0, 1.0], [381.0, 361.0, 341.0, 321.0, 301.0, 281.0, 261.0, 241.0, 221.0, 201.0, 181.0, 161.0, 141.0, 121.0, 101.0, 81.0, 61.0, 41.0, 21.0, 1.0], [381.0, 361.0, 341.0, 321.0, 301.0, 281.0, 261.0, 241.0, 221.0, 201.0, 181.0, 161.0, 141.0, 121.0, 101.0, 81.0, 61.0, 41.0, 21.0, 1.0], [381.0, 361.0, 341.0, 321.0, 301.0, 281.0, 261.0, 241.0, 221.0, 201.0, 181.0, 161.0, 141.0, 121.0, 101.0, 81.0, 61.0, 41.0, 21.0, 1.0], [381.0, 361.0, 341.0, 321.0, 301.0, 281.0, 261.0, 241.0, 221.0, 201.0, 181.0, 161.0, 141.0, 121.0, 101.0, 81.0, 61.0, 41.0, 21.0, 1.0], [381.0, 361.0, 341.0, 321.0, 301.0, 281.0, 261.0, 241.0, 221.0, 201.0, 181.0, 161.0, 141.0, 121.0, 101.0, 81.0, 61.0, 41.0, 21.0, 1.0]]
+Are latent tensors exactly equal?: True
+Are prompt embedding exactly equal?: True
+Are add_time_ids exactly equal?: True
+Are add_text_embeds exactly equal?: True
+Time for request_scheduler: 0.0011 seconds
+Time for pipe: 15.3827 seconds
+tail: 8
+tail: 8
+tail: 8
+tail: 8
+tail: 8
+tail: 8
+tail: 8
+tail: 8
+timesteps cor: []
+timesteps: [[181.0, 161.0, 141.0, 121.0, 101.0, 81.0, 61.0, 41.0, 21.0, 1.0], [181.0, 161.0, 141.0, 121.0, 101.0, 81.0, 61.0, 41.0, 21.0, 1.0], [181.0, 161.0, 141.0, 121.0, 101.0, 81.0, 61.0, 41.0, 21.0, 1.0], [181.0, 161.0, 141.0, 121.0, 101.0, 81.0, 61.0, 41.0, 21.0, 1.0], [181.0, 161.0, 141.0, 121.0, 101.0, 81.0, 61.0, 41.0, 21.0, 1.0], [181.0, 161.0, 141.0, 121.0, 101.0, 81.0, 61.0, 41.0, 21.0, 1.0], [181.0, 161.0, 141.0, 121.0, 101.0, 81.0, 61.0, 41.0, 21.0, 1.0], [181.0, 161.0, 141.0, 121.0, 101.0, 81.0, 61.0, 41.0, 21.0, 1.0]]
+Are latent tensors exactly equal?: True
+Are prompt embedding exactly equal?: True
+Are add_time_ids exactly equal?: True
+Are add_text_embeds exactly equal?: True
+Time for request_scheduler: 0.0011 seconds
+Time for pipe: 20.4281 seconds
+tail: 8
+tail: 8
+tail: 8
+tail: 8
+tail: 8
+tail: 8
+tail: 8
+tail: 8
+timesteps cor: [[781.0, 761.0, 741.0, 721.0, 701.0, 681.0, 661.0, 641.0, 621.0, 601.0, 581.0, 561.0, 541.0, 521.0, 501.0, 481.0, 461.0, 441.0, 421.0, 401.0, 381.0, 361.0, 341.0, 321.0, 301.0, 281.0, 261.0, 241.0, 221.0, 201.0, 181.0, 161.0, 141.0, 121.0, 101.0, 81.0, 61.0, 41.0, 21.0, 1.0], [781.0, 761.0, 741.0, 721.0, 701.0, 681.0, 661.0, 641.0, 621.0, 601.0, 581.0, 561.0, 541.0, 521.0, 501.0, 481.0, 461.0, 441.0, 421.0, 401.0, 381.0, 361.0, 341.0, 321.0, 301.0, 281.0, 261.0, 241.0, 221.0, 201.0, 181.0, 161.0, 141.0, 121.0, 101.0, 81.0, 61.0, 41.0, 21.0, 1.0], [781.0, 761.0, 741.0, 721.0, 701.0, 681.0, 661.0, 641.0, 621.0, 601.0, 581.0, 561.0, 541.0, 521.0, 501.0, 481.0, 461.0, 441.0, 421.0, 401.0, 381.0, 361.0, 341.0, 321.0, 301.0, 281.0, 261.0, 241.0, 221.0, 201.0, 181.0, 161.0, 141.0, 121.0, 101.0, 81.0, 61.0, 41.0, 21.0, 1.0], [781.0, 761.0, 741.0, 721.0, 701.0, 681.0, 661.0, 641.0, 621.0, 601.0, 581.0, 561.0, 541.0, 521.0, 501.0, 481.0, 461.0, 441.0, 421.0, 401.0, 381.0, 361.0, 341.0, 321.0, 301.0, 281.0, 261.0, 241.0, 221.0, 201.0, 181.0, 161.0, 141.0, 121.0, 101.0, 81.0, 61.0, 41.0, 21.0, 1.0], [781.0, 761.0, 741.0, 721.0, 701.0, 681.0, 661.0, 641.0, 621.0, 601.0, 581.0, 561.0, 541.0, 521.0, 501.0, 481.0, 461.0, 441.0, 421.0, 401.0, 381.0, 361.0, 341.0, 321.0, 301.0, 281.0, 261.0, 241.0, 221.0, 201.0, 181.0, 161.0, 141.0, 121.0, 101.0, 81.0, 61.0, 41.0, 21.0, 1.0], [781.0, 761.0, 741.0, 721.0, 701.0, 681.0, 661.0, 641.0, 621.0, 601.0, 581.0, 561.0, 541.0, 521.0, 501.0, 481.0, 461.0, 441.0, 421.0, 401.0, 381.0, 361.0, 341.0, 321.0, 301.0, 281.0, 261.0, 241.0, 221.0, 201.0, 181.0, 161.0, 141.0, 121.0, 101.0, 81.0, 61.0, 41.0, 21.0, 1.0], [781.0, 761.0, 741.0, 721.0, 701.0, 681.0, 661.0, 641.0, 621.0, 601.0, 581.0, 561.0, 541.0, 521.0, 501.0, 481.0, 461.0, 441.0, 421.0, 401.0, 381.0, 361.0, 341.0, 321.0, 301.0, 281.0, 261.0, 241.0, 221.0, 201.0, 181.0, 161.0, 141.0, 121.0, 101.0, 81.0, 61.0, 41.0, 21.0, 1.0], [781.0, 761.0, 741.0, 721.0, 701.0, 681.0, 661.0, 641.0, 621.0, 601.0, 581.0, 561.0, 541.0, 521.0, 501.0, 481.0, 461.0, 441.0, 421.0, 401.0, 381.0, 361.0, 341.0, 321.0, 301.0, 281.0, 261.0, 241.0, 221.0, 201.0, 181.0, 161.0, 141.0, 121.0, 101.0, 81.0, 61.0, 41.0, 21.0, 1.0]]
+timesteps: [[781.0, 761.0, 741.0, 721.0, 701.0, 681.0, 661.0, 641.0, 621.0, 601.0, 581.0, 561.0, 541.0, 521.0, 501.0, 481.0, 461.0, 441.0, 421.0, 401.0, 381.0, 361.0, 341.0, 321.0, 301.0, 281.0, 261.0, 241.0, 221.0, 201.0, 181.0, 161.0, 141.0, 121.0, 101.0, 81.0, 61.0, 41.0, 21.0, 1.0], [781.0, 761.0, 741.0, 721.0, 701.0, 681.0, 661.0, 641.0, 621.0, 601.0, 581.0, 561.0, 541.0, 521.0, 501.0, 481.0, 461.0, 441.0, 421.0, 401.0, 381.0, 361.0, 341.0, 321.0, 301.0, 281.0, 261.0, 241.0, 221.0, 201.0, 181.0, 161.0, 141.0, 121.0, 101.0, 81.0, 61.0, 41.0, 21.0, 1.0], [781.0, 761.0, 741.0, 721.0, 701.0, 681.0, 661.0, 641.0, 621.0, 601.0, 581.0, 561.0, 541.0, 521.0, 501.0, 481.0, 461.0, 441.0, 421.0, 401.0, 381.0, 361.0, 341.0, 321.0, 301.0, 281.0, 261.0, 241.0, 221.0, 201.0, 181.0, 161.0, 141.0, 121.0, 101.0, 81.0, 61.0, 41.0, 21.0, 1.0], [781.0, 761.0, 741.0, 721.0, 701.0, 681.0, 661.0, 641.0, 621.0, 601.0, 581.0, 561.0, 541.0, 521.0, 501.0, 481.0, 461.0, 441.0, 421.0, 401.0, 381.0, 361.0, 341.0, 321.0, 301.0, 281.0, 261.0, 241.0, 221.0, 201.0, 181.0, 161.0, 141.0, 121.0, 101.0, 81.0, 61.0, 41.0, 21.0, 1.0], [781.0, 761.0, 741.0, 721.0, 701.0, 681.0, 661.0, 641.0, 621.0, 601.0, 581.0, 561.0, 541.0, 521.0, 501.0, 481.0, 461.0, 441.0, 421.0, 401.0, 381.0, 361.0, 341.0, 321.0, 301.0, 281.0, 261.0, 241.0, 221.0, 201.0, 181.0, 161.0, 141.0, 121.0, 101.0, 81.0, 61.0, 41.0, 21.0, 1.0], [781.0, 761.0, 741.0, 721.0, 701.0, 681.0, 661.0, 641.0, 621.0, 601.0, 581.0, 561.0, 541.0, 521.0, 501.0, 481.0, 461.0, 441.0, 421.0, 401.0, 381.0, 361.0, 341.0, 321.0, 301.0, 281.0, 261.0, 241.0, 221.0, 201.0, 181.0, 161.0, 141.0, 121.0, 101.0, 81.0, 61.0, 41.0, 21.0, 1.0], [781.0, 761.0, 741.0, 721.0, 701.0, 681.0, 661.0, 641.0, 621.0, 601.0, 581.0, 561.0, 541.0, 521.0, 501.0, 481.0, 461.0, 441.0, 421.0, 401.0, 381.0, 361.0, 341.0, 321.0, 301.0, 281.0, 261.0, 241.0, 221.0, 201.0, 181.0, 161.0, 141.0, 121.0, 101.0, 81.0, 61.0, 41.0, 21.0, 1.0], [781.0, 761.0, 741.0, 721.0, 701.0, 681.0, 661.0, 641.0, 621.0, 601.0, 581.0, 561.0, 541.0, 521.0, 501.0, 481.0, 461.0, 441.0, 421.0, 401.0, 381.0, 361.0, 341.0, 321.0, 301.0, 281.0, 261.0, 241.0, 221.0, 201.0, 181.0, 161.0, 141.0, 121.0, 101.0, 81.0, 61.0, 41.0, 21.0, 1.0]]
+Are latent tensors exactly equal?: False
+Are prompt embedding exactly equal?: False
+Are add_time_ids exactly equal?: True
+Are add_text_embeds exactly equal?: False
+Time for request_scheduler: 0.0410 seconds
+Time for pipe: 15.4735 seconds
+tail: 8
+tail: 8
+tail: 8
+tail: 8
+tail: 8
+tail: 8
+tail: 8
+tail: 8
+timesteps cor: []
+timesteps: [[581.0, 561.0, 541.0, 521.0, 501.0, 481.0, 461.0, 441.0, 421.0, 401.0, 381.0, 361.0, 341.0, 321.0, 301.0, 281.0, 261.0, 241.0, 221.0, 201.0, 181.0, 161.0, 141.0, 121.0, 101.0, 81.0, 61.0, 41.0, 21.0, 1.0], [581.0, 561.0, 541.0, 521.0, 501.0, 481.0, 461.0, 441.0, 421.0, 401.0, 381.0, 361.0, 341.0, 321.0, 301.0, 281.0, 261.0, 241.0, 221.0, 201.0, 181.0, 161.0, 141.0, 121.0, 101.0, 81.0, 61.0, 41.0, 21.0, 1.0], [581.0, 561.0, 541.0, 521.0, 501.0, 481.0, 461.0, 441.0, 421.0, 401.0, 381.0, 361.0, 341.0, 321.0, 301.0, 281.0, 261.0, 241.0, 221.0, 201.0, 181.0, 161.0, 141.0, 121.0, 101.0, 81.0, 61.0, 41.0, 21.0, 1.0], [581.0, 561.0, 541.0, 521.0, 501.0, 481.0, 461.0, 441.0, 421.0, 401.0, 381.0, 361.0, 341.0, 321.0, 301.0, 281.0, 261.0, 241.0, 221.0, 201.0, 181.0, 161.0, 141.0, 121.0, 101.0, 81.0, 61.0, 41.0, 21.0, 1.0], [581.0, 561.0, 541.0, 521.0, 501.0, 481.0, 461.0, 441.0, 421.0, 401.0, 381.0, 361.0, 341.0, 321.0, 301.0, 281.0, 261.0, 241.0, 221.0, 201.0, 181.0, 161.0, 141.0, 121.0, 101.0, 81.0, 61.0, 41.0, 21.0, 1.0], [581.0, 561.0, 541.0, 521.0, 501.0, 481.0, 461.0, 441.0, 421.0, 401.0, 381.0, 361.0, 341.0, 321.0, 301.0, 281.0, 261.0, 241.0, 221.0, 201.0, 181.0, 161.0, 141.0, 121.0, 101.0, 81.0, 61.0, 41.0, 21.0, 1.0], [581.0, 561.0, 541.0, 521.0, 501.0, 481.0, 461.0, 441.0, 421.0, 401.0, 381.0, 361.0, 341.0, 321.0, 301.0, 281.0, 261.0, 241.0, 221.0, 201.0, 181.0, 161.0, 141.0, 121.0, 101.0, 81.0, 61.0, 41.0, 21.0, 1.0], [581.0, 561.0, 541.0, 521.0, 501.0, 481.0, 461.0, 441.0, 421.0, 401.0, 381.0, 361.0, 341.0, 321.0, 301.0, 281.0, 261.0, 241.0, 221.0, 201.0, 181.0, 161.0, 141.0, 121.0, 101.0, 81.0, 61.0, 41.0, 21.0, 1.0]]
+Are latent tensors exactly equal?: True
+Are prompt embedding exactly equal?: True
+Are add_time_ids exactly equal?: True
+Are add_text_embeds exactly equal?: True
+Time for request_scheduler: 0.0011 seconds
+Time for pipe: 15.5462 seconds
+tail: 8
+tail: 8
+tail: 8
+tail: 8
+tail: 8
+tail: 8
+tail: 8
+tail: 8
+timesteps cor: []
+timesteps: [[381.0, 361.0, 341.0, 321.0, 301.0, 281.0, 261.0, 241.0, 221.0, 201.0, 181.0, 161.0, 141.0, 121.0, 101.0, 81.0, 61.0, 41.0, 21.0, 1.0], [381.0, 361.0, 341.0, 321.0, 301.0, 281.0, 261.0, 241.0, 221.0, 201.0, 181.0, 161.0, 141.0, 121.0, 101.0, 81.0, 61.0, 41.0, 21.0, 1.0], [381.0, 361.0, 341.0, 321.0, 301.0, 281.0, 261.0, 241.0, 221.0, 201.0, 181.0, 161.0, 141.0, 121.0, 101.0, 81.0, 61.0, 41.0, 21.0, 1.0], [381.0, 361.0, 341.0, 321.0, 301.0, 281.0, 261.0, 241.0, 221.0, 201.0, 181.0, 161.0, 141.0, 121.0, 101.0, 81.0, 61.0, 41.0, 21.0, 1.0], [381.0, 361.0, 341.0, 321.0, 301.0, 281.0, 261.0, 241.0, 221.0, 201.0, 181.0, 161.0, 141.0, 121.0, 101.0, 81.0, 61.0, 41.0, 21.0, 1.0], [381.0, 361.0, 341.0, 321.0, 301.0, 281.0, 261.0, 241.0, 221.0, 201.0, 181.0, 161.0, 141.0, 121.0, 101.0, 81.0, 61.0, 41.0, 21.0, 1.0], [381.0, 361.0, 341.0, 321.0, 301.0, 281.0, 261.0, 241.0, 221.0, 201.0, 181.0, 161.0, 141.0, 121.0, 101.0, 81.0, 61.0, 41.0, 21.0, 1.0], [381.0, 361.0, 341.0, 321.0, 301.0, 281.0, 261.0, 241.0, 221.0, 201.0, 181.0, 161.0, 141.0, 121.0, 101.0, 81.0, 61.0, 41.0, 21.0, 1.0]]
+Are latent tensors exactly equal?: True
+Are prompt embedding exactly equal?: True
+Are add_time_ids exactly equal?: True
+Are add_text_embeds exactly equal?: True
+Time for request_scheduler: 0.0010 seconds
